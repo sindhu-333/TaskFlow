@@ -1,0 +1,14 @@
+{
+  "name": "taskflow-mern",
+  "version": "1.0.0",
+  "description": "Full-stack Task Tracker built with MERN Stack",
+  "private": true,
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev-backend": "cd backend && npm run dev",
+    "dev-frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
